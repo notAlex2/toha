@@ -57,7 +57,7 @@ other = "out of"
 other = "Publications"
 
 [taken_courses]
-other = "Taken Courses"
+other = "Courses"
 
 [course_name]
 other = "Course Name"
