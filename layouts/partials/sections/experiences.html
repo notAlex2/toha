@@ -8,7 +8,7 @@
     <h1 class="text-center">{{ .section.name }}</h1>
   {{ end }}
 
-  <div class="container timeline text-justify">
+  <div class="container timeline text-left">
    {{ $totalExperiences:= len .experiences }}
    {{ range $index,$experience:= .experiences }}
      {{ if eq (mod $index 2) 0 }}
