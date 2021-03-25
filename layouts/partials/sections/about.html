@@ -38,7 +38,7 @@
         </ul>
       </div>
       {{ if .resume }}
-      <a href="{{ .resume | relURL }}" target="#"
+      <a href="{{ .resume | relURL }}" target="#" onclick="captureOutboundLink('http://www.example2.com'); return false;"
         ><button class="btn btn-dark">{{ i18n "resume"}}</button></a
       >
       {{ end }}
